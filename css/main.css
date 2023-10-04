@@ -94,7 +94,7 @@
   /* Content */
   .content {
     flex-grow: 1;
-    padding: 2rem;
+    padding: 5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -111,11 +111,11 @@
   }
   
   .prevSlide {
-    left: -2rem;
+    left: 0rem;
   }
   
   .nextSlide {
-    right: -2rem;
+    right: 0rem;
   }
   
   .content__claim {
@@ -178,10 +178,13 @@
       margin-bottom: 1rem;
     }
   }
+  
+
 
   @media (max-width:560px){
     .content{
-      
+        
+        
         text-align: center;
         align-items: center;
     }
